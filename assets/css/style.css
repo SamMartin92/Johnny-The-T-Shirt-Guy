@@ -22,7 +22,7 @@ li a {
 }
 
 li a:hover {
-        text-decoration: underline;
+    text-decoration: underline;
 }
 
 #home-image {
@@ -32,9 +32,9 @@ li a:hover {
     border-radius: 10px;
     border: none;
     margin: 0 100px;
-    }
+}
 
-    /* photo section on home page */
+/* photo section on home page */
 
 #mid-section {
     background: url('../images/background-image.jpg') no-repeat center center;
@@ -45,6 +45,8 @@ li a:hover {
     animation-duration: 2s;
     margin-bottom: 0 0 50px 0;
 }
+
+/*need to credit this */
 
 @keyframes pic-appear {
     from {
@@ -94,4 +96,24 @@ li a:hover {
     to {
         opacity: 0.65;
     }
+}
+
+/*article*/
+article{
+margin: 0 auto;
+padding: 10px;
+}
+
+article div {
+    vertical-align: top;
+    display: inline-block;
+}
+
+#description{
+    width:45%
+}
+
+#printing-image {
+    position: relative;
+    float: right;
 }
