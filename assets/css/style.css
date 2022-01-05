@@ -99,9 +99,9 @@ li a:hover {
 }
 
 /*article*/
-article{
-margin: 0 auto;
-padding: 10px;
+article {
+    margin: 0 auto;
+    padding: 10px;
 }
 
 article div {
@@ -109,37 +109,47 @@ article div {
     display: inline-block;
 }
 
-#description{
-    width:60%;
+#description {
+    width: 60%;
 }
 
 #printing-image {
     position: relative;
     float: right;
-    padding:2% 12% 2% 0;
-    }
+    padding: 2% 12% 2% 0;
+}
 
-#printing-image-block{
+#printing-image-block {
     height: 350px;
-    width:275px;
-    border-radius:10px;
+    width: 275px;
+    border-radius: 10px;
 }
 
 /*die hard section*/
 
-#die-hard{
+#die-hard {
     margin: 0 auto;
     padding: 10px;
-    }
-    
-    #die-hard div {
-        vertical-align: top;
-        display: inline-block;
-        width: 45%;
+}
+
+#die-hard div {
+    vertical-align: top;
+    display: inline-block;
+    width:40%;
     }
 
-    #die-hard-vid {
-        position: relative;
-        float: right;
-        padding:2% 12% 2% 0;
-        }
+ #die-hard-tees{
+     width:45%;
+ }
+
+#die-hard-vid {
+    position: relative;
+    float: right;
+    padding: 0 12% 2% 0;
+  }
+
+#die-hard-tees img {
+    vertical-align: top;
+    display: inline-block;
+    width:30%;
+}
