@@ -1,0 +1,31 @@
+#nav-bar {
+    list-style-type: none;
+    float: right;
+    display: flex;
+    padding: 20px 10px 0px 20px;
+    ;
+    margin: 10px auto;
+}
+
+li a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    color: #c45508;
+
+}
+
+li a:hover {
+        text-decoration: underline;
+}
+
+#home-image {
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: none;
+    margin: 0 100px;
+    }
