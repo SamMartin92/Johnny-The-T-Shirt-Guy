@@ -110,10 +110,36 @@ article div {
 }
 
 #description{
-    width:45%
+    width:60%;
 }
 
 #printing-image {
     position: relative;
     float: right;
+    padding:2% 12% 2% 0;
+    }
+
+#printing-image-block{
+    height: 350px;
+    width:275px;
+    border-radius:10px;
 }
+
+/*die hard section*/
+
+#die-hard{
+    margin: 0 auto;
+    padding: 10px;
+    }
+    
+    #die-hard div {
+        vertical-align: top;
+        display: inline-block;
+        width: 45%;
+    }
+
+    #die-hard-vid {
+        position: relative;
+        float: right;
+        padding:2% 12% 2% 0;
+        }
