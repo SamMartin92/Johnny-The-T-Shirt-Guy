@@ -2,7 +2,7 @@
 
 /*header*/
 
-#nav-bar {
+.nav-bar {
     list-style-type: none;
     float: right;
     display: flex;
@@ -148,3 +148,21 @@ article div {
 #die-hard-vid{
     width: 45%;
 }
+
+/*footer*/
+
+footer{
+    height:100px;
+}
+
+.social-media{
+    text-align:center;
+     background-color: green;
+     padding-top: 10px;
+     height:50px;
+    }
+
+.social-media li {
+    display: inline;
+    padding: 10px 10px 0 10px;
+} /*credit*/
