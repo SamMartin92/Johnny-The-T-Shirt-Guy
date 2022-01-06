@@ -135,21 +135,16 @@ article div {
 #die-hard div {
     vertical-align: top;
     display: inline-block;
-    width:40%;
-    }
+}
 
- #die-hard-tees{
-     width:45%;
- }
-
-#die-hard-vid {
-    position: relative;
-    float: right;
-    padding: 0 12% 2% 0;
-  }
+#die-hard-tees {
+    width: 45%;
+}
 
 #die-hard-tees img {
-    vertical-align: top;
-    display: inline-block;
-    width:30%;
+    width: 30%;
+}
+
+#die-hard-vid{
+    width: 45%;
 }
