@@ -25,7 +25,7 @@ li a:hover {
     text-decoration: underline;
 }
 
-#home-image {
+.home-image {
     height: 80px;
     width: 80px;
     overflow: hidden;
@@ -145,24 +145,38 @@ article div {
     width: 30%;
 }
 
-#die-hard-vid{
+#die-hard-vid {
     width: 45%;
 }
 
 /*footer*/
 
-footer{
-    height:100px;
+footer {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-.social-media{
-    text-align:center;
-     background-color: green;
-     padding-top: 10px;
-     height:50px;
-    }
+.social-media {
+    text-align: center;
+    background-color: green;
+    padding-top: 10px;
+    height: 50px;
+}
 
 .social-media li {
     display: inline;
     padding: 10px 10px 0 10px;
-} /*credit*/
+}
+
+/*credit*/
+
+.scroll {
+    height: 50px;
+    width: 100%;
+    background: orange;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+} /*taken from one fo the lessons*/
