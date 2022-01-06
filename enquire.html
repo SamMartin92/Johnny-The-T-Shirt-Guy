@@ -25,6 +25,38 @@
     </header>
     
 
+    <section>
+        <form method='POST' action="https://formdump.codeinstitute.net/">
+            <h2>Buy our t-shirts:</h2>
+<!--credit Love Running-->
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" required>
+            <label for="email">Email Address</label>
+            <input id="email" name="email_address" type="email" required>
+            <label for='address'>Postal Address (if making an order):</label>
+            <input id='address' placeholder='Address Line 1 (optional)' aria-placeholder="Address Line 1 (optional)" name='address1' type='text'>
+            <input id='address' placeholder='Address Line 2 (optional)' aria-placeholder="Address Line 2 (optional)" name='address2' type='text'>
+            <input id='address' placeholder='Town (optional)' aria-placeholder="Town (optional)" name='town' type='text'>
+            <input id='address' placeholder='Eircode (optional)' aria-placeholder="Eircode (optional)" name='eircode=' type='text'>
+            <label for="size">Size:</label>
+
+            <select name="size" id="size">
+              <option value="s">Small</option>
+              <option value="m">Medium</option>
+              <option value="l">Large</option>
+              <option value="xl">X-Large</option>
+            </select>
+    
+            <label for='enquiry'><h4>For any personalised or company requests, please leave a message below:</h4></label>
+            <br>
+            <textarea id='enquiry' placeholder="Please type your request here" aria-placeholder="Please type your request here" rows='8' cols='40'></textarea>
+
+            
+        </form>
+    </section>
+
     <footer>
         <ul class='social-media'>
             <li><a href="#" target='_blank'>FB</a></li>
