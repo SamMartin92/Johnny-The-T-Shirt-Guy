@@ -1,3 +1,7 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+}
+
 /* indext.html*/
 
 /*header*/
@@ -7,7 +11,6 @@
     float: right;
     display: flex;
     padding: 20px 10px 0px 20px;
-    ;
     margin: 10px auto;
 }
 
@@ -16,7 +19,6 @@ li a {
     margin: 5px;
     padding: 10px;
     font-size: 30px;
-    font-family: 'Varela Round', sans-serif;
     color: #c45508;
 
 }
@@ -179,8 +181,12 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-} /*taken from one fo the lessons*/
+}
+
+/*taken from one fo the lessons*/
+
+.arrow {
+    text-decoration: underline;
+}
 
 /*enquire.html*/
-
-
