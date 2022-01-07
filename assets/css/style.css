@@ -78,7 +78,7 @@ li a:hover {
     text-align: center;
 }
 
-#heading-block {
+.heading-block {
     background-color: whitesmoke;
     opacity: 0.65;
     width: 900px;
@@ -183,10 +183,42 @@ footer {
     left: 0;
 }
 
-/*taken from one fo the lessons*/
-
 .arrow {
     text-decoration: underline;
 }
 
-/*enquire.html*/
+/*taken from one fo the lessons*/
+
+
+
+/*store.html*/
+main{
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+#store-banner{
+    height:400px;
+    width:100%;
+    background: url('../images/store-banner.jpg') no-repeat center center;
+}
+
+.row{
+    display: flex;
+    vertical-align: top;
+    justify-content: space-around;
+}
+
+.row div{
+    height: auto;
+    width: 45%;
+    padding:5%;
+    text-align: center;
+}
+
+.row div img{
+    width: 75%;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
