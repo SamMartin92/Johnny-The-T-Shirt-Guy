@@ -40,8 +40,9 @@ li a:hover {
 
 #mid-section {
     background: url('../images/background-image.jpg') no-repeat center center;
+    background-size: cover;
     opacity: 1;
-    height: 1000px;
+    height: 500px;
     width: 100%;
     animation-name: pic-appear;
     animation-duration: 2s;
@@ -64,28 +65,29 @@ li a:hover {
 #mid-section h2 {
     font-family: 'Licorice', Oswald, sans-serif;
     letter-spacing: 3px;
-    text-align: center;
+    text-align: center;/*
     font-size: 100px;
-    font-weight: 1500;
+    font-weight: 1500;*/
     margin: 0;
 }
 
 #mid-section p {
     margin: 0 auto;
-    font-family: 'Licorice', Oswald, sans-serif;
+    font-family: 'Licorice', Oswald, sans-serif;/*
     font-size: 50px;
-    font-weight: 1500px;
+    font-weight: 1500px;*/
     text-align: center;
 }
 
 .heading-block {
     background-color: whitesmoke;
     opacity: 0.65;
-    width: 900px;
+    width: 50%;
+    height:33%;
     margin: 0;
     position: relative;
-    top: 100px;
-    left: 20px;
+    top: 10%;
+    left:2%;
     animation-name: text-appear;
     animation-duration: 5s;
 }
@@ -145,10 +147,15 @@ article div {
 
 #die-hard-tees img {
     width: 30%;
+    border-radius: 5px;
 }
 
 #die-hard-vid {
     width: 45%;
+}
+
+#facebook-video{
+    align-items: center;
 }
 
 /*footer*/
@@ -163,8 +170,11 @@ footer {
     text-align: center;
     background-color: green;
     padding-top: 10px;
-    height: 50px;
-}
+    height: 100px;
+    width: 100%;
+    position: absolute;
+
+    }
 
 .social-media li {
     display: inline;
@@ -182,6 +192,7 @@ footer {
     bottom: 0;
     left: 0;
 }
+
 
 .arrow {
     text-decoration: underline;
@@ -219,9 +230,19 @@ main{
     border-radius: 10px;
 }
 
-.row div img{
+.store-pic{
     width: 65%;
     height: 80%;
     border: 2px solid white;
     border-radius: 10px;
 }
+
+.inner-row1{
+    height: 45%;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80%;
+}
+
+
+
