@@ -1,9 +1,12 @@
-* {
+/* {
     font-family: 'Varela Round', sans-serif;
+}*/
+
+/* index.html*/
+
+body{
+    background:#e2e1e0;
 }
-
-/* indext.html*/
-
 /*header*/
 
 .nav-bar {
@@ -38,7 +41,7 @@ li a:hover {
 
 /* photo section on home page */
 
-#mid-section {
+.mid-section {
     background: url('../images/background-image.jpg') no-repeat center center;
     background-size: cover;
     opacity: 1;
@@ -46,7 +49,7 @@ li a:hover {
     width: 100%;
     animation-name: pic-appear;
     animation-duration: 2s;
-    margin-bottom: 0 0 50px 0;
+    margin-bottom: 50px;
 }
 
 /*need to credit this */
@@ -61,19 +64,20 @@ li a:hover {
     }
 }
 
-
-#mid-section h2 {
-    font-family: 'Licorice', Oswald, sans-serif;
-    letter-spacing: 3px;
-    text-align: center;/*
+/*
+.mid-section h2 {
+   
+    /*
     font-size: 100px;
-    font-weight: 1500;*/
+    font-weight: 1500; 
     margin: 0;
-}
+} 
+*/
 
-#mid-section p {
+.mid-section p {
     margin: 0 auto;
-    font-family: 'Licorice', Oswald, sans-serif;/*
+    font-family: 'Licorice', Oswald, sans-serif;
+    /*
     font-size: 50px;
     font-weight: 1500px;*/
     text-align: center;
@@ -81,16 +85,20 @@ li a:hover {
 
 .heading-block {
     background-color: whitesmoke;
+    font-family: 'Licorice', Oswald, sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
     opacity: 0.65;
-    width: 50%;
-    height:33%;
+    width: 50%;/*
+    height: 33%;*/
     margin: 0;
     position: relative;
     top: 10%;
-    left:2%;
+    left: 2%;
     animation-name: text-appear;
     animation-duration: 5s;
-}
+    display:inline-block;
+    }
 
 @keyframes text-appear {
     from {
@@ -154,7 +162,7 @@ article div {
     width: 45%;
 }
 
-#facebook-video{
+#facebook-video {
     align-items: center;
 }
 
@@ -168,13 +176,12 @@ footer {
 
 .social-media {
     text-align: center;
-    background-color: green;
     padding-top: 10px;
     height: 100px;
     width: 100%;
     position: absolute;
 
-    }
+}
 
 .social-media li {
     display: inline;
@@ -203,46 +210,58 @@ footer {
 
 
 /*store.html*/
-main{
+main {
     margin: 0 auto;
     padding: 0;
     border: none;
 }
-#store-banner{
-    height:400px;
-    width:100%;
+
+#store-banner {
+    height: 400px;
+    width: 100%;
     background: url('../images/store-banner.jpg') no-repeat center center;
 }
 
-.row{
+.row {
     display: flex;
     vertical-align: top;
     justify-content: space-around;
 }
 
-.row div{
+.row div {
     height: 500px;
     width: 45%;
-    margin:1% 5%;
+    margin: 1% 5%;
     padding: 2% 0 2% 0;
     text-align: center;
-    border: 1px solid black;
     border-radius: 10px;
 }
 
-.store-pic{
+.store-pic {
     width: 65%;
     height: 80%;
-    border: 2px solid white;
     border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    /* credit https://codepen.io/sdthornton/pen/wBZdXq */
 }
 
-.inner-row1{
+.inner-row {
     height: 45%;
-    border-radius: 5px;
-    border: 1px solid black;
+    border-radius: 5px;/*
+    border: 1px solid black;*/
     width: 80%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 
+/*enquire.html*/
 
+#sign-up-form {
+    max-width: 400px;
+    max-height: 1000px;
+    margin: 5%;
+}
+
+#contact{
+    margin:5%;
+}
