@@ -4,9 +4,13 @@
 
 /* index.html*/
 
-body{
-    background:#e2e1e0;
+
+
+body {
+    background: #e2e1e0;
+    margin: 0;
 }
+
 /*header*/
 
 .nav-bar {
@@ -89,7 +93,8 @@ li a:hover {
     letter-spacing: 3px;
     text-align: center;
     opacity: 0.65;
-    width: 50%;/*
+    width: 50%;
+    /*
     height: 33%;*/
     margin: 0;
     position: relative;
@@ -97,8 +102,8 @@ li a:hover {
     left: 2%;
     animation-name: text-appear;
     animation-duration: 5s;
-    display:inline-block;
-    }
+    display: inline-block;
+}
 
 @keyframes text-appear {
     from {
@@ -112,35 +117,36 @@ li a:hover {
 
 /*article*/
 article {
-    margin: 0 auto;
+    margin: 0 7.5%;
     padding: 10px;
+    border-radius: 10px;
 }
 
 article div {
-    vertical-align: top;
     display: inline-block;
+    vertical-align: top;
 }
 
 #description {
     width: 60%;
+    margin-right:2%;
 }
 
 #printing-image {
-    position: relative;
-    float: right;
-    padding: 2% 12% 2% 0;
+    width: 35%;
 }
 
 #printing-image-block {
     height: 350px;
     width: 275px;
     border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /*die hard section*/
 
 #die-hard {
-    margin: 0 auto;
+    margin: 0 7.5%;
     padding: 10px;
 }
 
@@ -151,19 +157,30 @@ article div {
 
 #die-hard-tees {
     width: 45%;
+    height: 390px;
 }
 
 #die-hard-tees img {
     width: 30%;
+    height: 290px;
     border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
 }
 
 #die-hard-vid {
     width: 45%;
+    height: 390px;
 }
 
-#facebook-video {
-    align-items: center;
+.orange {
+    border-top: 2px dashed #c45508;
+    border-bottom: 2px dashed #c45508;
+    margin: 0% 12.5%;
+}
+
+#tour-video {
+    text-align: center;
 }
 
 /*footer*/
@@ -180,6 +197,7 @@ footer {
     height: 100px;
     width: 100%;
     position: absolute;
+    padding-inline-start: 0;
 
 }
 
@@ -224,8 +242,8 @@ main {
 
 .row {
     display: flex;
-    vertical-align: top;
     justify-content: space-around;
+    padding: 0 5% 0 5%;
 }
 
 .row div {
@@ -241,16 +259,21 @@ main {
     width: 65%;
     height: 80%;
     border-radius: 10px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     /* credit https://codepen.io/sdthornton/pen/wBZdXq */
 }
 
 .inner-row {
     height: 45%;
-    border-radius: 5px;/*
+    border-radius: 5px;
+    /*
     border: 1px solid black;*/
     width: 80%;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.shop-text {
+    text-align: center;
 }
 
 
@@ -262,6 +285,6 @@ main {
     margin: 5%;
 }
 
-#contact{
-    margin:5%;
+#contact {
+    margin: 5%;
 }
