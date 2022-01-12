@@ -306,6 +306,13 @@ main {
     border-radius: 5px;
 }
 
+input:hover, textarea:hover{
+    background-color: beige;
+}
+
+button{
+    font-family: 'Varela Round', sans-serif;
+}
 #contact {
     margin: 5%;
     text-align: center;
