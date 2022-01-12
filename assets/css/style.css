@@ -1,14 +1,13 @@
-/* {
-    font-family: 'Varela Round', sans-serif;
-}*/
-
 /* index.html*/
-
-
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Rock+Salt&family=Varela+Round&display=swap');
 
 body {
     background: #e2e1e0;
     margin: 0;
+}
+
+p{
+    font-family: 'Varela Round', sans-serif;
 }
 
 /*header*/
@@ -19,6 +18,7 @@ body {
     display: flex;
     padding: 20px 10px 0px 20px;
     margin: 10px auto;
+    font-family: 'Varela Round', sans-serif;
 }
 
 li a {
@@ -26,7 +26,7 @@ li a {
     margin: 5px;
     padding: 10px;
     font-size: 30px;
-    color: #c45508;
+    color: #c45508;  
 
 }
 
@@ -78,21 +78,13 @@ li a:hover {
 } 
 */
 
-.mid-section p {
-    margin: 0 auto;
-    font-family: 'Licorice', Oswald, sans-serif;
-    /*
-    font-size: 50px;
-    font-weight: 1500px;*/
-    text-align: center;
-}
 
 .heading-block {
     background-color: whitesmoke;
-    font-family: 'Licorice', Oswald, sans-serif;
+    font-family: 'Rock Salt', cursive;
     letter-spacing: 3px;
     text-align: center;
-    opacity: 0.65;
+    opacity: 0.8;
     width: 50%;
     /*
     height: 33%;*/
@@ -103,6 +95,17 @@ li a:hover {
     animation-name: text-appear;
     animation-duration: 5s;
     display: inline-block;
+    color: #c45508;
+}
+
+.heading-block > h2{
+    font-size: 2em;
+    font-weight:bolder;
+}
+
+.heading-block > p{
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 1.5px;
 }
 
 @keyframes text-appear {
@@ -111,10 +114,15 @@ li a:hover {
     }
 
     to {
-        opacity: 0.65;
+        opacity: 0.8;
     }
 }
 
+main h2{
+    color: #c45508;
+    font-family: 'Rock Salt', cursive;
+
+}
 /*article*/
 article {
     margin: 0 7.5%;
@@ -129,7 +137,7 @@ article div {
 
 #description {
     width: 60%;
-    margin-right:2%;
+    margin-right: 2%;
 }
 
 #printing-image {
@@ -151,7 +159,7 @@ article div {
 
 #die-hard div {
     vertical-align: top;
-    display: inline-block;    
+    display: inline-block;
 }
 
 #die-hard-tees {
@@ -176,9 +184,15 @@ article div {
 .orange {
     border-top: 2px dashed #c45508;
     border-bottom: 2px dashed #c45508;
-    }
+}
 
+.p-break{
+    font-weight: bold;
+    font-size: 2em;
+    color: #c45508;
+}
 #tour-video {
+    margin: 5px 7.5%;    
     text-align: center;
 }
 
@@ -186,7 +200,7 @@ article div {
 
 footer {
     height: 100px;
-        margin: 2% 7.5%;
+    margin: 2% 7.5%;
     border-top: 2px dashed #c45508;
 }
 
@@ -240,7 +254,7 @@ main {
 .row {
     display: flex;
     justify-content: space-around;
-        }
+}
 
 .row div {
     height: 500px;
@@ -279,10 +293,11 @@ main {
     max-width: 400px;
     max-height: 1000px;
     margin: 5%;
+    font-family: 'Varela Round', sans-serif;
 }
 
-#form-background{
-    background-color: rgba(245,245,245,0.8);
+#form-background {
+    background-color: rgba(245, 245, 245, 0.8);
     position: relative;
     left: 66%;
     top: 3%;
@@ -291,12 +306,13 @@ main {
     border-radius: 5px;
 }
 
-.align{
-    
-}
-
 #contact {
     margin: 5%;
     text-align: center;
     border-top: 2px dashed #c45508;
+}
+
+#contact-heading{
+    font-size: 200%;
+    font-weight: 200%;
 }
