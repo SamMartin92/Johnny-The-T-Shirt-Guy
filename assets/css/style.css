@@ -281,6 +281,22 @@ main {
     margin: 5%;
 }
 
+#form-background{
+    background-color: rgba(245,245,245,0.8);
+    position: relative;
+    left: 66%;
+    top: 3%;
+    width: 33%;
+    padding-bottom: 1px;
+    border-radius: 5px;
+}
+
+.align{
+    
+}
+
 #contact {
     margin: 5%;
+    text-align: center;
+    border-top: 2px dashed #c45508;
 }
