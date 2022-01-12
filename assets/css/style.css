@@ -146,13 +146,12 @@ article div {
 /*die hard section*/
 
 #die-hard {
-    margin: 0 7.5%;
     padding: 10px;
 }
 
 #die-hard div {
     vertical-align: top;
-    display: inline-block;
+    display: inline-block;    
 }
 
 #die-hard-tees {
@@ -171,13 +170,13 @@ article div {
 #die-hard-vid {
     width: 45%;
     height: 390px;
+    margin-left: 7.5%;
 }
 
 .orange {
     border-top: 2px dashed #c45508;
     border-bottom: 2px dashed #c45508;
-    margin: 0% 12.5%;
-}
+    }
 
 #tour-video {
     text-align: center;
@@ -187,16 +186,14 @@ article div {
 
 footer {
     height: 100px;
-    width: 100%;
-    margin: 0 auto;
+        margin: 2% 7.5%;
+    border-top: 2px dashed #c45508;
 }
 
 .social-media {
     text-align: center;
     padding-top: 10px;
     height: 100px;
-    width: 100%;
-    position: absolute;
     padding-inline-start: 0;
 
 }
@@ -229,7 +226,7 @@ footer {
 
 /*store.html*/
 main {
-    margin: 0 auto;
+    margin: 0 7.5%;
     padding: 0;
     border: none;
 }
@@ -243,8 +240,7 @@ main {
 .row {
     display: flex;
     justify-content: space-around;
-    padding: 0 5% 0 5%;
-}
+        }
 
 .row div {
     height: 500px;
