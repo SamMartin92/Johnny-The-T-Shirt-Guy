@@ -12,7 +12,7 @@
 <body>
     <header>
 
-        <a href="index.html">
+        <a class='logo' href="index.html">
             <img src='assets/images/jttsg-sig.png' alt='Home button showing the Johnny the t shirt guy signature'
                 class='home-image'>
         </a>
@@ -30,7 +30,7 @@
     <section>
         <div class='mid-section'>
             <div id='form-background'>
-                <form id='sign-up-form' method='POST' action="https://formdump.codeinstitute.net/">
+                <form class='sign-up-form' method='POST' action="https://formdump.codeinstitute.net/">
                     <h2>Buy our t-shirts:</h2>
                     <!--credit Love Running-->
                     <div id='form-top'>
@@ -96,6 +96,72 @@
 
         </div>
         </div>
+        <div id='small-screen-form'>
+            <form class='sign-up-form' method='POST' action="https://formdump.codeinstitute.net/">
+                <h2>Buy our t-shirts:</h2>
+                <!--credit Love Running-->
+                <div id='form-top'>
+                    <label for="fname">First Name:</label>
+                    <input  id="fname" name="first_name" type="text" required>
+                    <br>
+                    <label for="lname">Last Name:</label>
+                    <input  id="lname" name="last_name" type="text" required>
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input   id="email" name="email_address" type="email" required>
+                </div>
+                <br>
+                <label for='address'>Postal Address (if making an order):</label>
+                <input id='address'  placeholder='Address Line 1 (optional)'
+                    aria-placeholder="Address Line 1 (optional)" name='address1' type='text'>
+                <input id='address'  placeholder='Address Line 2 (optional)'
+                    aria-placeholder="Address Line 2 (optional)" name='address2' type='text'>
+                <input id='address'  placeholder='Town (optional)' aria-placeholder="Town (optional)" name='town'
+                    type='text'>
+                <input id='address'  placeholder='Eircode (optional)' aria-placeholder="Eircode (optional)"
+                    name='eircode' type='text'>
+                <br>
+                <label for="size">Size:</label>
+
+                <select name="size" id="size">
+                    <option value="blank"> </option>
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                    <option value="xl">X-Large</option>
+                </select>
+
+                <label for="product">Product:</label>
+
+                <select name="product" id="product">
+                    <option value="blank"> </option>
+                    <option value="nakatomi-plaza">Nakatomi Plaza tee</option>
+                    <option value="free-hugs">Free Hugs tee</option>
+                    <option value="2020">2020 tee</option>
+                    <option value="liverpool-mandala">Liverpool Mandala tee</option>
+                    <option value="essential-worker">Essental Worker tee</option>
+                    <option value="blank-t-shrit">Blank t-shirt tee</option>
+                    <option value="salah-mug">Mo Salah Mug</option>
+                    <option value="coffee-cushion">Coffee Cushion</option>
+                </select>
+
+                <label for='enquiry'>
+                    <h4>For any personalised or company requests, please leave a message below:</h4>
+                </label>
+                <br>
+                <textarea  id='enquiry' placeholder="Please type your request here"
+                    aria-placeholder="Please type your request here" rows='6' cols='40'></textarea>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset form</button>
+
+
+            </form>
+
+        </div>
+
+
+    </div>
     </section>
 
 

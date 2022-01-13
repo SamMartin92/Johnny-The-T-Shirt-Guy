@@ -315,7 +315,7 @@ main {
 
 /*enquire.html*/
 
-#sign-up-form {
+.sign-up-form {
     max-width: 400px;
     max-height: 1000px;
     margin: 5%;
@@ -352,14 +352,20 @@ button {
     border-top: 2px dashed #c45508;
 }
 
+#small-screen-form{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+}
+
 #contact-heading {
     font-size: 200%;
     font-weight: 200%;
 }
 
 /* Media Queries*/
-/*From 660px down*/
-@media screen and (max-width:660px) {
+/*From 700px down*/
+@media screen and (max-width:700px) {
     header {
         display: block;
         clear: left;
@@ -446,10 +452,30 @@ button {
         width: max-content;
     }
 
-   
+   /*store.html*/
 
+   .row{
+display: flex;
+flex-direction: column;
+align-items: center;
+   }
+
+   .store-pic{
+       width: 115%;
+   }
+
+   /*enquire*/
+   #small-screen-form{
+       min-width: 100%;
+   }
+
+   .sign-up-form{
+       margin: 0 auto;
+   }
+   #map{
+       max-width: 100%;
+   }
 }
-
 /*For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width:1200px) {
 
@@ -464,7 +490,7 @@ button {
         margin: 0 auto;
         height: fit-content;
         display: block;
-        padding-bottom: 0px;
+        padding:0;
         text-align: center;
     }
 
@@ -481,6 +507,28 @@ button {
     #die-hard-vid iframe{
         height:350px;
     }
+/*store.html*/
 
+#gallery{
+    column-count: 3;
+}
 
+/*enquire.html*/
+
+#form-background{
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+    left: 0%;
+}
+
+#small-screen-form{
+    height: 500px;
+    margin: 0 auto;
+    visibility: visible;
+    width: 50%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    }
 }
