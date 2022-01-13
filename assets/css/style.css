@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-p{
+p, h4{
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -49,7 +49,7 @@ li a:hover {
     background: url('../images/background-image.jpg') no-repeat center center;
     background-size: cover;
     opacity: 1;
-    height: 500px;
+    height: 550px;
     width: 100%;
     animation-name: pic-appear;
     animation-duration: 2s;
@@ -118,7 +118,7 @@ li a:hover {
     }
 }
 
-main h2{
+main h2, section h2{
     color: #c45508;
     font-family: 'Rock Salt', cursive;
 
@@ -154,7 +154,7 @@ article div {
 /*die hard section*/
 
 #die-hard {
-    padding: 10px;
+    padding: 10px 10px 100px 10px;
 }
 
 #die-hard div {
@@ -166,6 +166,7 @@ article div {
     width: 45%;
     height: 390px;
 }
+
 
 #die-hard-tees img {
     width: 30%;
@@ -284,8 +285,21 @@ main {
 
 .shop-text {
     text-align: center;
+    margin: 0% 7.5%;
 }
 
+
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery >img {
+    width: 100%;
+}
 
 /*enquire.html*/
 
@@ -310,6 +324,10 @@ input:hover, textarea:hover{
     background-color: beige;
 }
 
+input:focus, textarea:focus{
+    background-color: beige;
+}
+
 button{
     font-family: 'Varela Round', sans-serif;
 }
@@ -323,3 +341,34 @@ button{
     font-size: 200%;
     font-weight: 200%;
 }
+
+/* Media Queries*/
+
+/*For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width:1200px) {
+
+    main{
+        margin:0 auto;
+    }
+#die-hard{
+    width: 75%;
+   margin: 0 auto;
+    height: 1200px;
+    display:block;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+#die-hard-tees, #die-hard-vid{
+    padding:50px;
+    width:85%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+        }
+
+       
+
+
+   
+      }
