@@ -6,7 +6,8 @@ body {
     margin: 0;
 }
 
-p, h4{
+p,
+h4 {
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -26,7 +27,7 @@ li a {
     margin: 5px;
     padding: 10px;
     font-size: 30px;
-    color: #c45508;  
+    color: #c45508;
 
 }
 
@@ -44,6 +45,14 @@ li a:hover {
 }
 
 /* photo section on home page */
+
+.small-screen-heading {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+    height: 0px;
+}
 
 .mid-section {
     background: url('../images/background-image.jpg') no-repeat center center;
@@ -98,12 +107,12 @@ li a:hover {
     color: #c45508;
 }
 
-.heading-block > h2{
+.heading-block>h2 {
     font-size: 2em;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
-.heading-block > p{
+.heading-block>p {
     font-family: 'Varela Round', sans-serif;
     letter-spacing: 1.5px;
 }
@@ -118,11 +127,13 @@ li a:hover {
     }
 }
 
-main h2, section h2{
+main h2,
+section h2 {
     color: #c45508;
     font-family: 'Rock Salt', cursive;
 
 }
+
 /*article*/
 article {
     margin: 0 7.5%;
@@ -187,13 +198,14 @@ article div {
     border-bottom: 2px dashed #c45508;
 }
 
-.p-break{
+.p-break {
     font-weight: bold;
     font-size: 2em;
     color: #c45508;
 }
+
 #tour-video {
-    margin: 5px 7.5%;    
+    margin: 5px 7.5%;
     text-align: center;
 }
 
@@ -297,7 +309,7 @@ main {
     column-gap: 0px;
 }
 
-#gallery >img {
+#gallery>img {
     width: 100%;
 }
 
@@ -320,55 +332,155 @@ main {
     border-radius: 5px;
 }
 
-input:hover, textarea:hover{
+input:hover,
+textarea:hover {
     background-color: beige;
 }
 
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
     background-color: beige;
 }
 
-button{
+button {
     font-family: 'Varela Round', sans-serif;
 }
+
 #contact {
     margin: 5%;
     text-align: center;
     border-top: 2px dashed #c45508;
 }
 
-#contact-heading{
+#contact-heading {
     font-size: 200%;
     font-weight: 200%;
 }
 
 /* Media Queries*/
+/*From 660px down*/
+@media screen and (max-width:660px) {
+    header {
+        display: block;
+        clear: left;
+    }
+
+    section {
+        margin: 0 auto;
+    }
+
+    .logo {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-bar {
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .small-screen-heading {
+        visibility: visible;
+        height: 140px;
+        float: left;
+        clear: left;
+        margin-bottom: 50px;
+    }
+
+    
+
+    .mid-section {
+        clear: both;
+    }
+
+    .heading-block {
+        visibility: hidden;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    #printing-image {
+        width: 0px;
+        visibility: hidden;
+        float: left;
+    }
+
+    #die-hard {
+        width: 100%;
+        margin: 0 auto;
+            }
+
+    
+
+    #die-hard-tees,
+    #die-hard-vid {
+        min-width: 100%;
+        
+        display: block;
+        
+        padding: 0;
+        clear: both;
+         }
+         #die-hard-tees > div{
+            width: 100%;
+        }
+
+    #die-hard-tees img {
+        width: 31%;
+    }
+
+   
+
+    #tour-video {
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    #fb-vid{
+        width: max-content;
+    }
+
+   
+
+}
 
 /*For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width:1200px) {
 
-    main{
-        margin:0 auto;
+
+
+    main {
+        margin: 0 auto;
     }
-#die-hard{
-    width: 75%;
-   margin: 0 auto;
-    height: 1200px;
-    display:block;
-    padding-bottom: 0px;
-    text-align: center;
+
+    #die-hard {
+
+        margin: 0 auto;
+        height: fit-content;
+        display: block;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    #die-hard-tees,
+    #die-hard-vid {
+        padding: 0;
+        width: 85%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        height: fit-content;
+    }
+
+    #die-hard-vid iframe{
+        height:350px;
+    }
+
+
 }
-
-#die-hard-tees, #die-hard-vid{
-    padding:50px;
-    width:85%;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-        }
-
-       
-
-
-   
-      }
