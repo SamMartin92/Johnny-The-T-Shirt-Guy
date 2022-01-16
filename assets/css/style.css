@@ -235,7 +235,6 @@ main {
 }
 
 .row div {
-    height: 500px;
     width: 45%;
     margin: 1% 5%;
     padding: 2% 0 2% 0;
@@ -353,7 +352,7 @@ button {
 
     .small-screen-heading {
         visibility: visible;
-        height: 140px;
+       height: 270px;
         float: left;
         clear: left;
         margin-bottom: 50px;
@@ -366,7 +365,7 @@ button {
 
     .mid-section {
         visibility: hidden;
-        height: 0px;
+        height: 300px;
         width: 0px;
     }
 
@@ -438,7 +437,7 @@ button {
     }
 
     #gallery {
-        column-count: 3;
+        column-count: 2 !important;
     }
 }
 
