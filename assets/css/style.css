@@ -13,18 +13,21 @@ h4 {
 
 /*header*/
 
-.nav-bar {
-    list-style-type: none;
-    float: right;
+header{
     display: flex;
-    padding: 20px 10px 0px 20px;
-    margin: 10px auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px 0 40px;
+}
+
+.nav-bar {
+    list-style-type: none;    
+    display: flex;
     font-family: 'Varela Round', sans-serif;
 }
 
 li a {
     text-decoration: none;
-    margin: 5px;
     padding: 10px;
     font-size: 30px;
     color: #c45508;
@@ -35,8 +38,7 @@ li a:hover {
     text-decoration: underline;
 }
 
-.home-image {
-    height: 80px;
+.home-image {    
     width: 80px;
     overflow: hidden;
     border-radius: 10px;
