@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+p{
+    font-size: larger;
+}
+
 p,
 h4 {
     font-family: 'Varela Round', sans-serif;
@@ -131,8 +135,8 @@ article div {
 }
 
 #description {
-    width: 60%;
-    margin-right: 2%;
+    width: 60%;/*
+    margin-right: 2%;*/
 }
 
 #printing-image {
@@ -322,10 +326,6 @@ button {
     width: 0px;
 }
 
-#contact-heading {
-    font-size: 200%;
-}
-
 /* Media Queries*/
 /*From 700px down*/
 @media screen and (max-width:700px) {
@@ -359,8 +359,11 @@ button {
 
     .mid-section {
         background: unset;
-        height:300px;
-    }
+        }
+
+    .max-height{
+        height: 300px;
+    }    
 
     article {
         text-align: center;
@@ -373,9 +376,7 @@ button {
     }
 
     #printing-image {
-        width: 0px;
-        visibility: hidden;
-        float: left;
+        display:none;
     }
 
     #die-hard {
