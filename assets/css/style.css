@@ -13,7 +13,7 @@ h4 {
 
 /*header*/
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +21,7 @@ header{
 }
 
 .nav-bar {
-    list-style-type: none;    
+    list-style-type: none;
     display: flex;
     font-family: 'Varela Round', sans-serif;
 }
@@ -38,11 +38,8 @@ li a:hover {
     text-decoration: underline;
 }
 
-.home-image {    
-    width: 80px;
-    overflow: hidden;
-    border-radius: 10px;
-    border: none;
+.home-image {
+    height: 80px;
     margin: 0 100px;
 }
 
@@ -86,10 +83,7 @@ li a:hover {
     text-align: center;
     opacity: 0.8;
     width: 50%;
-    margin: 0;
-    position: relative;
-    top: 10%;
-    left: 2%;
+    margin: 10px;
     animation-name: text-appear;
     animation-duration: 5s;
     display: inline-block;
@@ -104,6 +98,7 @@ li a:hover {
 .heading-block>p {
     font-family: 'Varela Round', sans-serif;
     letter-spacing: 1.5px;
+    font-size: larger;
 }
 
 @keyframes text-appear {
@@ -282,18 +277,23 @@ main {
 .sign-up-form {
     max-width: 400px;
     max-height: 1000px;
-    margin: 5%;
+    margin: 10px;
     font-family: 'Varela Round', sans-serif;
 }
 
 #form-background {
     background-color: rgba(245, 245, 245, 0.8);
-    position: relative;
-    left: 66%;
-    top: 3%;
-    width: 33%;
-    padding-bottom: 1px;
+    float: right;
+    margin: 10px 10px 0 0;
     border-radius: 5px;
+    text-align: center;
+}
+
+.form-top {
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
 
 input:hover,
@@ -337,8 +337,8 @@ button {
         margin: 0 auto;
     }
 
-    .home-image{
-        margin:0;
+    .home-image {
+        margin: 0 50px;
     }
 
     .nav-bar {
@@ -348,31 +348,28 @@ button {
         padding: 0;
     }
 
-    .small-text{
+    .small-text {
         font-size: 20px;
     }
 
-    .small-screen-heading {
-        visibility: visible;
-       height: 270px;
-        float: left;
-        clear: left;
-        margin-bottom: 50px;
-    }
-
     .heading-block {
-        visibility: hidden;
-        position: absolute;
+       background: unset;
+       width: 100%;
     }
 
     .mid-section {
-        visibility: hidden;
-        height: 300px;
-        width: 0px;
+        background: unset;
+        height:300px;
     }
 
     article {
         text-align: center;
+        margin: 0;
+    }
+
+    #description {
+        width: auto;
+        margin: 0;
     }
 
     #printing-image {
@@ -414,10 +411,7 @@ button {
     }
 
     /*enquire*/
-    #small-screen-form {
-        min-width: 100%;
-    }
-
+   
     .sign-up-form {
         margin: 0 auto;
     }
@@ -428,6 +422,11 @@ button {
 
     #gallery {
         column-count: 2 !important;
+    }
+
+    #form-background{
+        float:none;
+        margin: 0;
     }
 }
 
@@ -467,24 +466,5 @@ button {
 
     #gallery {
         column-count: 3;
-    }
-
-    /*enquire.html*/
-
-    #form-background {
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
-        left: 0%;
-    }
-
-    #small-screen-form {
-        height: 500px;
-        margin: 0 auto;
-        visibility: visible;
-        width: 50%;
-        padding-bottom: 20px;
-        border-radius: 5px;
-        text-align: center;
     }
 }
