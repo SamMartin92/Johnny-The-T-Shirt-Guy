@@ -6,10 +6,6 @@ body {
     margin: 0;
 }
 
-p{
-    font-size: larger;
-}
-
 p,
 h4 {
     font-family: 'Varela Round', sans-serif;
@@ -49,13 +45,6 @@ li a:hover {
 
 /* photo section on home page */
 
-.small-screen-heading {
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-    visibility: hidden;
-    height: 0px;
-}
 
 .mid-section {
     background: url('../images/background-image.jpg') no-repeat center center;
@@ -68,7 +57,7 @@ li a:hover {
     margin-bottom: 50px;
 }
 
-/*need to credit this */
+/*need to credit this- love running */
 
 @keyframes pic-appear {
     from {
@@ -135,8 +124,7 @@ article div {
 }
 
 #description {
-    width: 60%;/*
-    margin-right: 2%;*/
+    width: 60%;
 }
 
 #printing-image {
@@ -166,9 +154,6 @@ article div {
     height: 390px;
 }
 
-#tee-imgs {
-    text-align: right;
-}
 
 #die-hard-tees img {
     width: 32%;
@@ -251,12 +236,6 @@ main {
     /* credit https://codepen.io/sdthornton/pen/wBZdXq */
 }
 
-.inner-row {
-    height: 45%;
-    border-radius: 5px;
-    width: 80%;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
 
 .shop-text {
     text-align: center;
@@ -331,9 +310,10 @@ button {
 @media screen and (max-width:700px) {
     header {
         display: block;
+        text-align: center;
     }
 
-    section {
+    .small-screen-margin {
         margin: 0 auto;
     }
 
@@ -353,17 +333,17 @@ button {
     }
 
     .heading-block {
-       background: unset;
-       width: 100%;
+        background: unset;
+        width: 100%;
     }
 
     .mid-section {
         background: unset;
-        }
+    }
 
-    .max-height{
+    .small-screen-height {
         height: 300px;
-    }    
+    }
 
     article {
         text-align: center;
@@ -376,12 +356,11 @@ button {
     }
 
     #printing-image {
-        display:none;
+        display: none;
     }
 
     #die-hard {
         width: 100%;
-        margin: 0 auto;
     }
 
     #die-hard-tees,
@@ -400,10 +379,12 @@ button {
         width: 31%;
     }
 
+    #die-hard-vid {
+        margin-left: 0;
+    }
 
 
     #tour-video {
-        margin: 0 auto;
         justify-content: center;
     }
 
@@ -412,10 +393,6 @@ button {
     }
 
     /*enquire*/
-   
-    .sign-up-form {
-        margin: 0 auto;
-    }
 
     #map {
         max-width: 100%;
@@ -425,24 +402,20 @@ button {
         column-count: 2 !important;
     }
 
-    #form-background{
-        float:none;
-        margin: 0;
+    #form-background {
+        float: none;
+        margin: 0 10px;
     }
 }
 
 /*For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width:1200px) {
 
-
-
-    main {
+    .med-screen-margin {
         margin: 0 auto;
     }
 
     #die-hard {
-
-        margin: 0 auto;
         height: fit-content;
         display: block;
         padding: 0;
@@ -455,7 +428,6 @@ button {
         width: 85%;
         text-align: center;
         display: block;
-        margin: 0 auto;
         height: fit-content;
     }
 
