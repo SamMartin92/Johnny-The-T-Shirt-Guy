@@ -1,5 +1,5 @@
 /* index.html*/
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Rock+Salt&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&family=Rock+Salt&family=Varela+Round&display=swap");
 
 body {
     background: #e2e1e0;
@@ -8,7 +8,7 @@ body {
 
 p,
 h4 {
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
 }
 
 /*header*/
@@ -23,7 +23,7 @@ header {
 .nav-bar {
     list-style-type: none;
     display: flex;
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
 }
 
 li a {
@@ -31,7 +31,6 @@ li a {
     padding: 10px;
     font-size: 30px;
     color: #c45508;
-
 }
 
 li a:hover {
@@ -45,9 +44,8 @@ li a:hover {
 
 /* photo section on home page */
 
-
 .mid-section {
-    background: url('../images/background-image.jpg') no-repeat center center;
+    background: url("../images/background-image.jpg") no-repeat center center;
     background-size: cover;
     opacity: 1;
     height: 550px;
@@ -71,7 +69,7 @@ li a:hover {
 
 .heading-block {
     background-color: whitesmoke;
-    font-family: 'Rock Salt', cursive;
+    font-family: "Rock Salt", cursive;
     letter-spacing: 3px;
     text-align: center;
     opacity: 0.8;
@@ -83,13 +81,13 @@ li a:hover {
     color: #c45508;
 }
 
-.heading-block>h2 {
+.heading-block > h2 {
     font-size: 2em;
     font-weight: bolder;
 }
 
-.heading-block>p {
-    font-family: 'Varela Round', sans-serif;
+.heading-block > p {
+    font-family: "Varela Round", sans-serif;
     letter-spacing: 1.5px;
     font-size: larger;
 }
@@ -107,8 +105,7 @@ li a:hover {
 main h2,
 section h2 {
     color: #c45508;
-    font-family: 'Rock Salt', cursive;
-
+    font-family: "Rock Salt", cursive;
 }
 
 /*article*/
@@ -154,13 +151,11 @@ article div {
     height: 390px;
 }
 
-
 #die-hard-tees img {
     width: 32%;
     height: 290px;
     border-radius: 5px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
 }
 
 #die-hard-vid {
@@ -198,7 +193,6 @@ footer {
     padding-top: 10px;
     height: 100px;
     padding-inline-start: 0;
-
 }
 
 .social-media li {
@@ -236,13 +230,10 @@ main {
     /* credit https://codepen.io/sdthornton/pen/wBZdXq */
 }
 
-
 .shop-text {
     text-align: center;
     margin: 0% 7.5%;
 }
-
-
 
 #gallery {
     clear: both;
@@ -251,7 +242,7 @@ main {
     column-gap: 0px;
 }
 
-#gallery>img {
+#gallery > img {
     width: 100%;
 }
 
@@ -261,7 +252,7 @@ main {
     max-width: 400px;
     max-height: 1000px;
     margin: 10px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
 }
 
 #form-background {
@@ -290,7 +281,7 @@ textarea:focus {
 }
 
 button {
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Varela Round", sans-serif;
 }
 
 #contact {
@@ -307,7 +298,7 @@ button {
 
 /* Media Queries*/
 /*From 700px down*/
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
     header {
         display: block;
         text-align: center;
@@ -371,7 +362,7 @@ button {
         clear: both;
     }
 
-    #die-hard-tees>div {
+    #die-hard-tees > div {
         width: 100%;
     }
 
@@ -382,7 +373,6 @@ button {
     #die-hard-vid {
         margin-left: 0;
     }
-
 
     #tour-video {
         justify-content: center;
@@ -409,8 +399,7 @@ button {
 }
 
 /*For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width:1200px) {
-
+@media screen and (max-width: 1200px) {
     .med-screen-margin {
         margin: 0 auto;
     }
