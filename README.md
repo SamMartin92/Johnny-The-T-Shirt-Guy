@@ -26,8 +26,8 @@ The Johnny The T-Shirt Guy website is an online store for the small business Joh
 </ul>
 
 ## Skeleton: <ul>
-<li>Simple static layout to clearly display text & product images</li>
-<li>Before beginning, I built the basic structure of the project in a [repository](https://www.github.com/SamMartin92/practice-for-first-project) </li>
+<li>Simple static layout to  clearly display text & product images</li>
+<li>Before beginning, I built the basic structure of the project in a <a href="https://www.github.com/SamMartin92/practice-for-first-project">practice repository</a> </li>
 <li>I then spoke with my mentor and agreed how the three pages of the site would be laid out</li>
 </ul>
 
@@ -43,12 +43,16 @@ The Johnny The T-Shirt Guy website is an online store for the small business Joh
 ## Existing features:
 
 **Header:**
+
+<img src='assets/images/readme/header.PNG'>
 <ul>
 <li>The header is consistent on all three pages. It contains the home-image button on the left and navigation menu to the far right. It allows users to navigate easily to and from each page the site. </li>
 <li>The home-image is a button which directs the user to index.html. It is a stylisic choice as it serves the same purpose as the Home element in the navigation menu. I chose to add this to portray a logo for the site. It is taken from a photo of a handwritten signature from Johnny with the background removed.</li>
 </ul>
 
 **Hero Image**
+
+<img src='assets/images/readme/hero-image.PNG'>
 <ul>
 <li>The hero image displays across all pages for screens with a width greater than 700px. It shows the 'workshop' in which the products are made and the aim is to give the site a charming, homely feel. There is a painted logo in the center of the photograph with the name of the business. </li>
 <li>There is a heading block over the hero image on the home page and store page and an order form on the orders page. From reading the heading blocks, it is immediately apparent the pirpose of the site and what is being sold.</li>
@@ -56,30 +60,41 @@ The Johnny The T-Shirt Guy website is an online store for the small business Joh
 </ul>
 
 **Home Page**
+
+<img src='assets/images/readme/home-page.PNG'>
 <ul>
 <li>The home page contains a small blurb about the company, a featured design and an embedded video shwoing the process of making the featured t-shirts.</li>
 <li>This is simple and done with a bit of humour. The user will get a feel for the business and will be displayed with one of the more popular designs once they scroll by the hero image</li>
 </ul>
 
 **Footer**
+
+<img src='assets/images/readme/footer.PNG'>
 <ul>
 <li>The footer is extremely simple. It contains one top-border to seperate it from the main page and two links to the company's social media sites.</li>
 <li>This allows users to redirect and follow the business on facebook or instagram</li>
 </ul>
 
 **Shop Page**
+
+<img src='assets/images/readme/store-page.PNG'>
 <ul>
 <li>The shop page displays the existing designs available for purchase. The images cards have a small shadow behind them to appear as if they are projecting slightly from the screen with a two-line tag line below each.</li>
 <li>The images are repsonsive and will justify across the screen depending on the width.</li>
 </ul>
 
 **Gallery**
+
+<img src='assets/images/readme/gallery.PNG'>
 <ul>
 <li>Just below the products on the shop page is the gallery of previous personalised orders displayed in columns depending on the screen width.</li>
 <li>There is a link to the Orders Page just above and the variety of images is thee to sell the user on making personalised orders for a range of different items.</li>
+<li> The idea and code for the gallery came from the Love Running Project Essentials Prject with the Code Institute</li>
 </ul>
 
 **Order Form**
+
+<img src='assets/images/readme/form.PNG'>
 <ul>
 <li>The order form is presented as to allow users to purchase a product or make an enquiry. The name and email fields are the only mandatory fields to ensure contact can be made with the user who submits the form if necessary.</li>
 <li>It includes dropdown list of sizes and all products currently displayed on the shop page.</li>
@@ -101,19 +116,41 @@ There are some features which I would like to implement on this site once I have
 <li>I chose Rock Salt as the font for headings across the site. I wanted to choose a handwritten font to align with the DIY, homemade image the business portrays. It also matches well with the home-image button which is an actual written signature.</li>
 <li>For the paragraph font, I chose Varela Round. This font is clear but does not seem overly formal, which contributes to the image the business would like to portray.</li>
 <li>Fonts were found & imported from Google Fonts.</li>
-<li> For the heading text, borders, header & footer and some text in index.html, #c45508 was chosen. This is a rustic burnt orange colour which brings Autumn to mind. This is in keeping with the predominatly orange colour of the hero image.</li>
-<li>As a general background for the site, #e2e1e0 was chosen. This is an off-white colour which contrasts well with the burnt orange & black text on the site. The off-white tone does so with a warmer feel than pure white.</li>
-</ul>
+<li> For the heading text, borders, header & footer and some text in index.html, #c45508 was chosen. </li>
+
+<img src='assets/images/readme/orange.PNG'>
+<ul>
+<li>This is a rustic burnt orange colour which brings Autumn to mind. This is in keeping with the predominatly orange colour of the hero image.</li></ul>
+<li>As a general background for the site, #e2e1e0 was chosen. </li>
+
+
+<img src='assets/images/readme/off-white.PNG'>
+<ul>
+ <li>This is an off-white colour which contrasts well with the burnt orange & black text on the site. The off-white tone does so with a warmer feel than pure white.</li>
+</ul></ul>
 
 # Testing
 <ul>
 <li>This site was built using just html & css. As such, the main testing requirements came in ensuring the site was responsive on all screen sizes.</li>
 <ul><li> The majority of testing in this regard was done in dev tools while building the webiste. This was done by selecting different device types from the dimensions list and by altering the wilih of the site and checking for errors</li> </ul>
-<li>I tested the site in edge, chrome, firefox and internet explorer to ensure it was functional across the most prominent browsers and tested the site on mobile to ensure the it acted as it did in dev tools.</li>
+<li>I tested the site in edge, chrome, & firefox to ensure it was functional across the most prominent browsers and tested the site on mobile to ensure the it acted as it did in dev tools.</li>
 <li>I used lighthouse to generate reports for mobile and desktop. My main concern for this project was the accessability </li>
 <ul><li>As it scored over 90 I am satissfied with the result. In future projects, I will aikm to raise the rating of the performance & best practices.Results shown below:</li></ul>
-<li>Each page on the site was passed through the html vaidator https://validator.w3.org/ to ensure there were no errors.</li>
-<li>Similarly, style.css was passed through https://jigsaw.w3.org/css-validator/ to ensure there were no errors.</li>
+<li>Each page on the site was passed through the html vaidator https://validator.w3.org/ to ensure there were no errors.
+</li>
+
+   
+
+<li>Similarly, style.css was passed through https://jigsaw.w3.org/css-validator/ to ensure there were no errors.
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+</li>
 <li>The form on the Orders page was tested to ensure it was set up correctly and all data submitted was recieved accurately. As this is a dummy form, the value for action used was https://formdump.codeinstitute.net/. </li>
 <ul><li>This is the dummy page used in the Coders Coffeehouse walkthrough project in the HTML & CSS Essentials modules and served the same purpose for validating the form element of my project.</li></ul>
 <li>All anchor tags were tested to ensure they worked and to ensure external links opened in seperate tabs.</li>
