@@ -1,6 +1,8 @@
 # Johnny the T-Shirt Guy
 
-[Link to live site](https://sammartin92.github.io/hello-project/)
+<img src='assets/images/readme/mock-up.PNG'>
+
+[Link to live site.](https://sammartin92.github.io/hello-project/)
 
 ## Objective
 My objective in this project is to build and deploy a static front end application for my first milestone project for the Code Institute using HTML & CSS. The 'client' in for the purpose of this project is my brother-in-law Johnny who designs and prints t-shirts & accessories. 
@@ -135,21 +137,18 @@ There are some features which I would like to implement on this site once I have
 <ul><li> The majority of testing in this regard was done in dev tools while building the webiste. This was done by selecting different device types from the dimensions list and by altering the wilih of the site and checking for errors</li> </ul>
 <li>I tested the site in edge, chrome, & firefox to ensure it was functional across the most prominent browsers and tested the site on mobile to ensure the it acted as it did in dev tools.</li>
 <li>I used lighthouse to generate reports for mobile and desktop. My main concern for this project was the accessability </li>
-<ul><li>As it scored over 90 I am satissfied with the result. In future projects, I will aikm to raise the rating of the performance & best practices.Results shown below:</li></ul>
-<li>Each page on the site was passed through the html vaidator https://validator.w3.org/ to ensure there were no errors.
+<ul><li>As it scored over 90 I am satissfied with the result. In future projects, I will aim to raise the rating of the performance & best practices for mobile. Results shown below:
 </li>
+</ul>
 
-   
+<img src='assets/images/readme/lighthouse.PNG'>
+<li>Each page on the site was passed through the html vaidator https://validator.w3.org/ to ensure there were no errors.
 
+<img src='assets/images/readme/html-checker.PNG'>
+</li>
 <li>Similarly, style.css was passed through https://jigsaw.w3.org/css-validator/ to ensure there were no errors.
 
-<p>
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-    </a>
-</p>
+<img src='assets/images/readme/css-validator.PNG'>
 </li>
 <li>The form on the Orders page was tested to ensure it was set up correctly and all data submitted was recieved accurately. As this is a dummy form, the value for action used was https://formdump.codeinstitute.net/. </li>
 <ul><li>This is the dummy page used in the Coders Coffeehouse walkthrough project in the HTML & CSS Essentials modules and served the same purpose for validating the form element of my project.</li></ul>
@@ -181,13 +180,19 @@ There are some features which I would like to implement on this site once I have
 # Credits
 
 ## Content
+<ul>
+<li>Certain elements of the site such as the nav bar, gallery & footer were closely replicated from the Love Running Project module with the Code Institue.</li>
+<li>The social media, phone and mail icons were taken from <a href='https://fontawesome.com/'>Font Awesome</a>.</li>
+<li>Fonts were taken from <a href='https://fonts.google.com/'>Google Fonts</a>.</li>
+<li><a href='https://tinypng.com/'>TinyPNG</a> was used to compress the size of the images used.</li>
+<li>Other replicated code has been cited within comments within the html & css files.</li></ul>
 
 ## Media
 <ul>
-<li>All media on the site, video & images were taken from Johnathan MacAleese's facebook and instagram pages. They are all original designs and creations. The signature image is also original and comes from his personal files.</li>
+<li>All media on the site, video & images were taken from Johnathan MacAleese's facebook and instagram pages. They are all original designs and creations. The signature image is original also and comes from his personal files.</li>
 </ul>
 
-## Acknowledgements
+
 
 
 

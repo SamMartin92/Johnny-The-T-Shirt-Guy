@@ -55,7 +55,7 @@ li a:hover {
     margin-bottom: 50px;
 }
 
-/*need to credit this- love running */
+/*idea for keyframes taken from zooming image in Love Running */
 
 @keyframes pic-appear {
     from {
@@ -133,6 +133,7 @@ article div {
     width: 275px;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    /* box shadow taken from https://codepen.io/sdthornton/pen/wBZdXq. Further use below. */
 }
 
 /*die hard section*/
@@ -227,8 +228,7 @@ main {
     height: 80%;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    /* credit https://codepen.io/sdthornton/pen/wBZdXq */
-}
+    }
 
 .shop-text {
     text-align: center;
