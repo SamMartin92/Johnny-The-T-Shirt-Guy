@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+.standard-padding {
+    padding: 40px;
+}
+
 p,
 h4 {
     font-family: "Varela Round", sans-serif;
@@ -39,7 +43,6 @@ li a:hover {
 
 .home-image {
     height: 80px;
-    margin: 0 100px;
 }
 
 /* photo section on home page */
@@ -52,7 +55,6 @@ li a:hover {
     width: 100%;
     animation-name: pic-appear;
     animation-duration: 2s;
-    margin-bottom: 50px;
 }
 
 /*idea for keyframes taken from zooming image in Love Running */
@@ -73,20 +75,20 @@ li a:hover {
     letter-spacing: 3px;
     text-align: center;
     opacity: 0.8;
-    width: 50%;
-    margin: 10px;
+    margin: 40px;
+    padding: 10px;
     animation-name: text-appear;
     animation-duration: 5s;
     display: inline-block;
     color: #c45508;
 }
 
-.heading-block > h2 {
+.heading-block>h2 {
     font-size: 2em;
     font-weight: bolder;
 }
 
-.heading-block > p {
+.heading-block>p {
     font-family: "Varela Round", sans-serif;
     letter-spacing: 1.5px;
     font-size: larger;
@@ -110,9 +112,11 @@ section h2 {
 
 /*article*/
 article {
-    margin: 0 7.5%;
-    padding: 10px;
+    padding: 40px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 article div {
@@ -124,9 +128,6 @@ article div {
     width: 60%;
 }
 
-#printing-image {
-    width: 35%;
-}
 
 #printing-image-block {
     height: 350px;
@@ -139,7 +140,11 @@ article div {
 /*die hard section*/
 
 #die-hard {
-    padding: 10px 10px 100px 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 #die-hard div {
@@ -148,22 +153,15 @@ article div {
 }
 
 #die-hard-tees {
-    width: 45%;
-    height: 390px;
+    margin-right: 100px;
 }
 
 #die-hard-tees img {
-    width: 32%;
     height: 290px;
     border-radius: 5px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-#die-hard-vid {
-    width: 45%;
-    height: 390px;
-    margin-left: 7.5%;
-}
 
 .orange {
     border-top: 2px dashed #c45508;
@@ -177,7 +175,6 @@ article div {
 }
 
 #tour-video {
-    margin: 5px 7.5%;
     text-align: center;
 }
 
@@ -205,7 +202,8 @@ footer {
 
 /*store.html*/
 main {
-    margin: 0 7.5%;
+    /*
+    margin: 0 7.5%;*/
     padding: 0;
     border: none;
 }
@@ -213,7 +211,7 @@ main {
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -225,14 +223,12 @@ main {
 
 .store-pic {
     width: 65%;
-    height: 80%;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    }
+}
 
 .shop-text {
     text-align: center;
-    margin: 0% 7.5%;
 }
 
 #gallery {
@@ -242,7 +238,7 @@ main {
     column-gap: 0px;
 }
 
-#gallery > img {
+#gallery>img {
     width: 100%;
 }
 
@@ -258,16 +254,20 @@ main {
 #form-background {
     background-color: rgba(245, 245, 245, 0.8);
     float: right;
-    margin: 10px 250px 0 0;
+    margin: 40px;
     border-radius: 5px;
     text-align: center;
 }
 
 .form-top {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
     width: 80%;
+}
+
+.bottom-form-margin {
+    margin-bottom: 5px;
 }
 
 input:hover,
@@ -285,7 +285,6 @@ button {
 }
 
 #contact {
-    margin: 5%;
     text-align: center;
     border-top: 2px dashed #c45508;
 }
@@ -320,16 +319,13 @@ button {
 
     .heading-block {
         background: unset;
-        width: 100%;
     }
 
     .mid-section {
         background: unset;
+        height: unset;
     }
 
-    .small-screen-height {
-        height: 300px;
-    }
 
     article {
         text-align: center;
@@ -345,19 +341,15 @@ button {
         display: none;
     }
 
-    #die-hard {
-        width: 100%;
-    }
-
     #die-hard-tees,
     #die-hard-vid {
         min-width: 100%;
         display: block;
-        padding: 0;
+        padding: 40px;
         clear: both;
     }
 
-    #die-hard-tees > div {
+    #die-hard-tees>div {
         width: 100%;
     }
 
@@ -389,7 +381,7 @@ button {
 
     #form-background {
         float: none;
-        margin: 0 10px;
+        margin: 40px;
     }
 }
 
@@ -402,7 +394,6 @@ button {
     #die-hard {
         height: fit-content;
         display: block;
-        padding: 0;
         text-align: center;
     }
 
@@ -413,6 +404,7 @@ button {
         text-align: center;
         display: block;
         height: fit-content;
+        margin-right: 0px;
     }
 
     #die-hard-vid iframe {
