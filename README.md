@@ -39,6 +39,25 @@ The Johnny The T-Shirt Guy website is an online store for the small business Joh
 <li>Reliant on media (images and video) minimal use of borders to maintain a simple layout</li>
 </ul>
 
+# User stories:
+
+## First Time Users:
+<ul>
+<li>should immediately see, through the heading block & content of landing page, the purpose of the website.</li>
+<li>will be able to navigate to products and orders page intuitively.</li>
+<li>should immediately sense the independant, DIY ethos of the business through the content and styling of the page.</li>
+</ul>
+
+## Returning users:
+<ul>
+<li>can expect to see the site updated with new designs and products as they are added to the shop page.</li>
+</ul>
+
+## Buiness Owner:
+<ul>
+<li>will have a site to chowcase their work and products and promote their ability to satisfy customer requests.</li>
+<li>will have a virtual space which will encourage users to reach out to them and follow them on social media.</li>
+<li>will have an e-commerce site to which customers can purchase products and provide their infor for delivery.</li></ul>
 
 # Features:
 
@@ -182,10 +201,16 @@ There are some features which I would like to implement on this site once I have
 ## Content
 <ul>
 <li>Certain elements of the site such as the nav bar, gallery & footer were closely replicated from the Love Running Project module with the Code Institue.</li>
+<li>Other replicated code has been cited within comments within the html & css files.</li></ul>
+
+## Technologies Used
+<ul>
+<li>The site itselft was built in <a href='https://gitpod.io/'>Gitpod</a>.</li>
+<li>Dev Tools was used continuously through the project to work out positioning and spacing of content on the site.</li>
 <li>The social media, phone and mail icons were taken from <a href='https://fontawesome.com/'>Font Awesome</a>.</li>
 <li>Fonts were taken from <a href='https://fonts.google.com/'>Google Fonts</a>.</li>
 <li><a href='https://tinypng.com/'>TinyPNG</a> was used to compress the size of the images used.</li>
-<li>Other replicated code has been cited within comments within the html & css files.</li></ul>
+</ul>
 
 ## Media
 <ul>
