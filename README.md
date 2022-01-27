@@ -2,7 +2,7 @@
 
 <img src='assets/images/readme/mock-up.PNG'>
 
-[Link to live site.](https://sammartin92.github.io/hello-project/)
+[Link to live site.](https://sammartin92.github.io/Johnny-The-T-Shirt-Guy/)
 
 ## Objective
 My objective in this project is to build and deploy a static front end application for my first milestone project for the Code Institute using HTML & CSS. The 'client' in for the purpose of this project is my brother-in-law Johnny, who designs and prints t-shirts & accessories. 
