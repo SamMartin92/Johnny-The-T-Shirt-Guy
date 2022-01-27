@@ -48,7 +48,7 @@ li a:hover {
 /* photo section on home page */
 
 .mid-section {
-    background: url("../images/background-image.jpg") no-repeat center center;
+    background: url("../images/body-images/background-image.jpg") no-repeat center center;
     background-size: cover;
     opacity: 1;
     height: 550px;
