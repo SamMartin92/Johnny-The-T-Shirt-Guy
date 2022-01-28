@@ -312,10 +312,10 @@ button {
     .small-text {
         font-size: 20px;
     }
-/*
+
     .heading-block {
-        background: unset;
-    }*/
+        opacity: 0.9;
+    }
 
     .mid-section {/*
         background: unset;*/
