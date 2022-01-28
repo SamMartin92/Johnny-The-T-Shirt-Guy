@@ -325,7 +325,7 @@ button {
         from {
             opacity: 0;
         }
-    
+
         to {
             opacity: 0.9;
         }
@@ -361,7 +361,7 @@ button {
         width: 31%;
     }
 
-    #youtube-vid{
+    #youtube-vid {
         width: 100%;
     }
 

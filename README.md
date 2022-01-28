@@ -77,7 +77,7 @@ The Johnny The T-Shirt Guy website is an online store for the small business Joh
 <ul>
 <li>The hero image displays across all pages for screens with a width greater than 700px. It shows the 'workshop' in which the products are made and the aim is to give the site a charming, homely feel. There is a painted logo in the center of the photograph with the name of the business. </li>
 <li>There is a heading block over the hero image on the home page and store page and an order form on the orders page. From reading the heading blocks, it is immediately apparent the purpose of the site and what is being sold.</li>
-<li>There is a few second delay on the display of the hero image to add a bit of panache to the appearance of the site. On smaller screens, the home image is not displayed and instead just the content of the heading block.</li>
+<li>There is a few second delay on the display of the hero image to add a bit of panache to the appearance of the site.</li>
 </ul>
 
 **Home Page**
