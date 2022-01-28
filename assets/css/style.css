@@ -317,8 +317,7 @@ button {
         opacity: 0.9;
     }
 
-    .mid-section {/*
-        background: unset;*/
+    .mid-section {
         height: unset;
     }
 
@@ -362,8 +361,8 @@ button {
         width: 31%;
     }
 
-    #die-hard-vid {
-        margin-left: 0;
+    #youtube-vid{
+        width: 100%;
     }
 
     #tour-video {
