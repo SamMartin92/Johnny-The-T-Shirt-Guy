@@ -322,6 +322,16 @@ button {
         height: unset;
     }
 
+    @keyframes text-appear {
+        from {
+            opacity: 0;
+        }
+    
+        to {
+            opacity: 0.9;
+        }
+    }
+
     article {
         text-align: center;
         margin: 0;
